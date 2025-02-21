@@ -1,10 +1,16 @@
-<div textalign=center>
+# 🦁 멋쟁이사자처럼 13기 React_component_props 세션 과제입니다🦁
+React_component_props세션 과제 **임시repository**입니다!
+<br/>
+<br/>
+<br/>
   
 # [1번 문제] 나만의 프로필 만들기
 
 ☘️ **문제**
 
-자식 컴포넌트인 `UserProfile`과 부모 컴포넌트인 `HomePage`를 `props`로 연결하여 **나만의 프로필**을 만들어봅시다!  `이름, 나이, 학과`를 담은 프로필 카드를 다음과 같이 만들어주세요! 
+자식 컴포넌트인 `UserProfile`과 부모 컴포넌트인 `HomePage`를 `props`로 연결하여 **나만의 프로필**을 만들어봅시다!
+
+`이름, 나이, 학과`를 담은 프로필 카드를 다음과 같이 만들어주세요! 
 <br/>
 <br/>
 
@@ -36,5 +42,5 @@
 
 **예시**
 - ![image](https://github.com/user-attachments/assets/61cbe299-92fb-4e92-9ae7-bf9d4e8c2f3f)
-<div>
+
 
