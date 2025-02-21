@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+<div textalign=center>
+  
+# [1번 문제] 나만의 프로필 만들기
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+☘️ **문제**
 
-## Available Scripts
+자식 컴포넌트인 `UserProfile`과 부모 컴포넌트인 `HomePage`를 `props`로 연결하여 **나만의 프로필**을 만들어봅시다!  `이름, 나이, 학과`를 담은 프로필 카드를 다음과 같이 만들어주세요! 
+<br/>
+<br/>
 
-In the project directory, you can run:
+**주의**
 
-### `npm start`
+- **css파일은 건들이지 마시고 jsx파일에서 작업해주시면 됩니다.**
+- **기본 제공 사진 이외에 본인 사진을 추가하셔도 됩니다! 😉**
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**예시**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+![2025-02-21200449-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c0315ee4-b67a-482f-a47f-2c494c7ff4e1)
+<br/>
+<br/>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# [2번 문제] map을 활용한 운영진 리스트 만들기
 
-### `npm run build`
+☘️ **문제**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+부모 컴포넌트인 `StaffPage`안에 운영진 정보가 들어있는 객체 배열이 있습니다! 자식 컴포넌트인 StaffProfile을 props로 연결하여  map을 사용해 운영진 카드리스트를 다음과 같이 만들어주세요!
+<br/>
+<br/>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**주의**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **css파일은 건들이지 마시고 jsx파일에서 작업해주시면 됩니다.**
+<br/>
 
-### `npm run eject`
+**예시**
+- ![image](https://github.com/user-attachments/assets/61cbe299-92fb-4e92-9ae7-bf9d4e8c2f3f)
+<div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
