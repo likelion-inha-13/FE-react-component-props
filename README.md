@@ -1,4 +1,4 @@
-# 🦁 멋쟁이사자처럼 13기 React_component_props 세션 과제입니다🦁
+# 🦁 멋쟁이사자처럼 13기 React 2번째 세션 과제입니다🦁
 React_component_props세션 과제 **임시repository**입니다!
 <br/>
 <br/>
