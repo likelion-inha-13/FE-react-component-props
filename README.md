@@ -31,9 +31,12 @@ React_component_props세션 과제 **임시repository**입니다!
 
 ☘️ **문제**
 
-부모 컴포넌트인 `StaffPage`안에 운영진 정보가 들어있는 객체 배열이 있습니다!
+다음과 같이 부모 컴포넌트인 `StaffPage`안에 운영진 정보가 들어있는 객체 배열이 있습니다!
 
-자식 컴포넌트인 `StaffProfile`을 `props`로 연결하여  `map`을 사용해 
+![image](https://github.com/user-attachments/assets/31555eb3-e418-4caf-bf66-838d4ae9459f)
+
+
+부모 컴포넌트와 자식 컴포넌트인 `StaffProfile`을 `props`로 연결하여  `map`을 사용해 
 
 운영진 카드리스트를 다음과 같이 만들어주세요!
 <br/>
