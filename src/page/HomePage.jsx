@@ -1,9 +1,10 @@
 import UserProfile from "../components/UserProfile/UserProfile";
+import React from "react"
 
 const HomePage = () => {
   return (
-    <div>
-      <UserProfile />
+    <div className="profile-card">
+      <UserProfile name="YEWON" age={22} major="컴공"/>
     </div>
   );
 };
