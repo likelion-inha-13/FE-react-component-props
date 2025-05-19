@@ -22,8 +22,8 @@ React_component_props세션 과제 repository입니다!
 
 **예시**
 
+![image](https://github.com/user-attachments/assets/6e09a220-d396-4eef-ae78-e51130580f5c)
 
-![2025-02-21200449-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c0315ee4-b67a-482f-a47f-2c494c7ff4e1)
 <br/>
 <br/>
 
@@ -48,6 +48,7 @@ React_component_props세션 과제 repository입니다!
 <br/>
 
 **예시**
-![image](https://github.com/user-attachments/assets/61cbe299-92fb-4e92-9ae7-bf9d4e8c2f3f)
+![image](https://github.com/user-attachments/assets/3518c5f0-8509-48fa-a96e-e38dfef4ad45)
+
 
 
