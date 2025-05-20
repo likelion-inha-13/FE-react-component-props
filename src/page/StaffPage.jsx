@@ -1,4 +1,6 @@
 import React from "react";
+// import UserProfile from "../components/UserProfile/UserProfile";
+import StaffProfile from "../components/StaffProfile/StaffProfile";
 
 const StaffPage = () => {
   const staffs = [
@@ -8,7 +10,16 @@ const StaffPage = () => {
     { name: "Yerin", part: "FE_홍보" },
   ];
 
-  return <div></div>;
+  return ( 
+  <div style = {{display : "flex" ,flexdirection : "row", gap: "10px"}}>
+    {staffs.map(({name,part}) => (
+      <StaffProfile
+          Name= {name}
+          Part = {part}
+          />
+    ))}
+  </div>
+  );
 };
 
 export default StaffPage;
