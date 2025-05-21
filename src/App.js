@@ -4,7 +4,7 @@ import StaffPage from "./page/StaffPage";
 import UserProfile from "./components/UserProfile/UserProfile";
 
 const App = () => {
-  return <HomePage />;
+  return <StaffPage />;
 };
 
 export default App;
