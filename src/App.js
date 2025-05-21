@@ -1,10 +1,10 @@
 import "./App.css";
 import HomePage from "./page/HomePage";
 import StaffPage from "./page/StaffPage";
-/* 여기에 Page들을 import 한 후 하나 씩 확인!! */
+import UserProfile from "./components/UserProfile/UserProfile";
 
 const App = () => {
-  return <div></div>;
+  return <StaffPage />;
 };
 
 export default App;
