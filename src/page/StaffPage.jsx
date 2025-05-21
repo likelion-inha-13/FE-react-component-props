@@ -1,4 +1,5 @@
 import React from "react";
+import StaffProfile from "../components/StaffProfile/StaffProfile";
 
 const StaffPage = () => {
   const staffs = [
@@ -8,7 +9,24 @@ const StaffPage = () => {
     { name: "Yerin", part: "FE_홍보" },
   ];
 
-  return <div></div>;
+  return (
+  <div
+  className="staff-container"
+  style={{ display: "flex", flexDirection: "row"}}
+>
+    {staffs.map((staffs, index)=>(
+      <StaffProfile
+      key={index}
+      name={staffs.name}
+      part={staffs.part}/>
+    ))
+    
+    }
+
+
+
+  </div>)
+  
 };
 
 export default StaffPage;
