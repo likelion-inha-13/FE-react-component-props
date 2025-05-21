@@ -4,7 +4,12 @@ import StaffPage from "./page/StaffPage";
 /* 여기에 Page들을 import 한 후 하나 씩 확인!! */
 
 const App = () => {
-  return <div></div>;
+  return(
+    <div>
+      <HomePage />
+      <StaffPage />
+    </div>
+  )
 };
 
 export default App;
