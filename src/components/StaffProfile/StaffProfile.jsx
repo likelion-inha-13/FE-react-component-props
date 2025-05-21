@@ -1,8 +1,15 @@
 import React from "react";
 import "./StaffProfile.css";
 
-const StaffProfile = () => {
-  return <div></div>;
+const StaffProfile = ({name,part}) => {
+  return(
+    <div className="staff-card-list">
+    <div className="staff-card">
+        <h2>이름: {name}</h2>
+         <p>파트: {part}</p>
+      </div>  
+      </div>
+  ) 
 };
 
 export default StaffProfile;
